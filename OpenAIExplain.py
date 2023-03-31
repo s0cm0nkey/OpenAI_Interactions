@@ -4,7 +4,7 @@ openai.api_key = "API_KEY_HERE"
 
 inp = input('Paste Command Line Text\n') 
 
-prompt = "Explain the following command string:" + inp 
+prompt = "Explain the following command string or code:" + inp 
 
 response = openai.Completion.create(model="text-davinci-003", 
 
